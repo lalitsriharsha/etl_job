@@ -52,10 +52,19 @@ Setup Instructions
 
    Kafka:
      - Start Zookeeper
+   ```bash
+       .\bin\windows\zookeeper-server-start.bat  .\config\zookeeper.properties
+   ```
+   
      - Start Kafka
-
+    ```bash
+    .\bin\windows\kafka-server-start.bat .\config\server.properties
+    ```
    Cassandra:
      - cassandra
+    ```bash
+    start-cassandra.bat
+    ```
 
 2. Install Python Dependencies
 ```bash
