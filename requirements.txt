@@ -1,0 +1,4 @@
+aiokafka
+cassandra-driver
+PyYAML
+pandas

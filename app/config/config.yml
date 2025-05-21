@@ -1,0 +1,8 @@
+kafka:
+  broker: "localhost:9092"
+  topics:
+    transformed: "transformed_patient_data"
+
+paths:
+  raw_data: "./resources/raw_data"
+  transformed_csv: "./resources/transformed_data.csv"
